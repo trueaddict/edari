@@ -1,7 +1,20 @@
 Kokoukseen osallistujat:
 
-Virtanen Otto<br>Schoultz Ida-Louise<br>Saarela Venla<br>Kohvakka Jyri este, tilalla Heikkilä Antero<br>Rauhala Nelli<br>
+Virtanen Otto
+
+Schoultz Ida-Louise
+
+Saarela Venla
+
+Kohvakka Jyri este, tilalla Heikkilä Antero
+
+Rauhala Nelli
+
+
 
 Muut varat:
 
-Hyytiäinen Ossi<br>Saksman Miikael<br>
+Hyytiäinen Ossi
+
+Saksman Miikael
+

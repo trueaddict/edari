@@ -46,13 +46,13 @@ def main():
         if temp['paikalla'] == 'True':
             osallistujat[temp['Nimi']] = ''
             print(temp['Nimi'])
-            md = md + str(temp['Nimi']) + '<br>'
+            md = md + str(temp['Nimi']) + '\n\n'
         else:
             for j in range(5, len(newlist)):
                 temp2 = newlist[j]
                 if temp2['Nimi'] not in osallistujat.keys() and temp2['paikalla'] == 'True':
                     print(temp['Nimi'], 'este, tilalla', temp2['Nimi'])
-                    md = md + str(temp['Nimi']) + ' este, tilalla ' + str(temp2['Nimi']) + '<br>'
+                    md = md + str(temp['Nimi']) + ' este, tilalla ' + str(temp2['Nimi']) + '\n\n'
                     osallistujat[temp2['Nimi']] = ''
                     break
 
@@ -68,7 +68,7 @@ def main():
     for i in newlist:
         if i['Nimi'] not in osallistujat.keys() and i['paikalla'] == 'True':
             print(i['Nimi'])
-            md = md + str(i['Nimi']) + '<br>'
+            md = md + str(i['Nimi']) + '\n\n'
 
     writer = csv.DictWriter(open('jasenet.csv', 'w'), fieldnames=newlist[0].keys())
     writer.writeheader()
