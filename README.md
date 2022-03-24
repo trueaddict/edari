@@ -14,7 +14,11 @@ Rauhala Nelli
 
 Muut varat:
 
+Heikinmäki Nella
+
 Hyytiäinen Ossi
 
 Saksman Miikael
+
+Rantanen Nuutti
 
